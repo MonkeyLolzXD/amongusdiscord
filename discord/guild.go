@@ -21,7 +21,7 @@ func MakeDefaultDelays() GameDelays {
 		Delays: map[game.PhaseNameString]map[game.PhaseNameString]int{
 			game.PhaseNames[game.LOBBY]: {
 				game.PhaseNames[game.LOBBY]:   0,
-				game.PhaseNames[game.TASKS]:   7,
+				game.PhaseNames[game.TASKS]:   1,
 				game.PhaseNames[game.DISCUSS]: 0,
 			},
 			game.PhaseNames[game.TASKS]: {
@@ -30,7 +30,7 @@ func MakeDefaultDelays() GameDelays {
 				game.PhaseNames[game.DISCUSS]: 0,
 			},
 			game.PhaseNames[game.DISCUSS]: {
-				game.PhaseNames[game.LOBBY]:   6,
+				game.PhaseNames[game.LOBBY]:   7,
 				game.PhaseNames[game.TASKS]:   7,
 				game.PhaseNames[game.DISCUSS]: 0,
 			},
